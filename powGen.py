@@ -28,7 +28,8 @@ else:
      time.sleep(3)
 
      processed_merra_path = root_directory + 'merraData/resource/' + region + '/processed/'
-     if region == "wecc": processed_merra_name = 'cordDataWestCoastYear'
+     #if region == "wecc": processed_merra_name = 'cordDataWestCoastYear'
+     if region == "nyiso": processed_mera_name = 'processedMERRAnyiso"
      else: processed_merra_name = 'processedMERRA'
      processed_merra_file = processed_merra_path + processed_merra_name
 
